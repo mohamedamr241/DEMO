@@ -1,0 +1,108 @@
+#second {
+width:0px;
+animation: reveal 7s infinite;
+white-space: nowrap;
+}
+
+#third {
+    color: #fff;
+	font-size: 62px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+    /* margin-left:-200px; */
+    animation: slidein 7s infinite;
+    white-space: nowrap;
+}
+
+
+
+@keyframes slidein {
+0% { margin-left:-1228px; }
+20% { margin-left:-1228px; }
+35% { margin-left:240px; }
+100% { margin-left:250px; }
+}
+
+@keyframes reveal {
+0% {opacity:0;width:0px;}
+20% {opacity:1;width:0px;}
+30% {width:355px;}
+80% {opacity:1;}
+100% {opacity:0;width:355px;}
+}
+@media (min-width:374px) and (max-width: 455px) {
+	#third {
+        color: #fff;
+        font-size: 25px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        /* margin-left:-200px; */
+        animation: slideinPhone 7s infinite;
+        white-space: nowrap;
+    }
+    @keyframes slideinPhone {
+        0% { margin-left:-1228px; }
+        20% { margin-left:-1228px; }
+        35% { margin-left:20px; }
+        100% { margin-left:22px; }
+    }
+	#googleMap{
+        width:100%;
+    }
+}
+@media (max-width:371px){
+    #third {
+        color: #fff;
+        font-size: 25px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        animation: slideinPhones 7s infinite;
+        white-space: nowrap;
+    }
+    @keyframes slideinPhones {
+        0% { margin-left:-1228px; }
+        20% { margin-left:-1228px; }
+        35% { margin-left:1px; }
+        100% { margin-left:3px; }   
+    }
+    #googleMap{
+        width:100%;
+    }
+}
+@media (min-width:456px) and (max-width: 766px) {
+	#third {
+        color: #fff;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        /* margin-left:-200px; */
+        animation: slideinPhone 7s infinite;
+        white-space: nowrap;
+    }
+    @keyframes slideinPhone {
+        0% { margin-left:-1228px; }
+        20% { margin-left:-1228px; }
+        35% { margin-left:50px; }
+        100% { margin-left:60px; }
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) {
+	#third {
+        color: #fff;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        /* margin-left:-200px; */
+        animation: slideinPhone 7s infinite;
+        white-space: nowrap;
+    }
+    @keyframes slideinPhone {
+        0% { margin-left:-1228px; }
+        20% { margin-left:-1228px; }
+        35% { margin-left:155px; }
+        100% { margin-left:165px; }
+    }
+    #googleMap{
+        width:100%;
+    }
+}
