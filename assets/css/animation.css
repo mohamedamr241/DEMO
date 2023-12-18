@@ -85,7 +85,7 @@ white-space: nowrap;
 @media (max-width: 309px) {
     #third {
         color: #fff;
-        font-size: 20px;
+        font-size: 18px;
         text-transform: uppercase;
         letter-spacing: 5px;
         animation: slideinPhones 7s infinite;
@@ -106,8 +106,8 @@ white-space: nowrap;
     @keyframes slideinPhones {
         0% { transform: translateX(-300px); }
         20% { transform: translateX(-300px); }
-        35% { transform: translateX(2px); }
-        100% { transform: translateX(5px); }
+        35% { transform: translateX(0px); }
+        100% { transform: translateX(1px); }
     }
 
     #googleMap {
