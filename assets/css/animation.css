@@ -30,7 +30,7 @@ white-space: nowrap;
 80% {opacity:1;}
 100% {opacity:0;width:355px;}
 }
-@media (min-width:374px) and (max-width: 455px) {
+@media (min-width:372px) and (max-width: 455px) {
 	#third {
         color: #fff;
         font-size: 25px;
