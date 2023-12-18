@@ -1355,6 +1355,10 @@ header {
 	.card{
 		height:auto;
 	}
+	.text-content h5 {
+		font-size: 20px;
+	}
+
 }
 
 @media (min-width: 767px) and (max-width: 992px) {
@@ -1663,8 +1667,8 @@ header {
 	display: table;
   	background-color: #242424;
   	position: fixed;
-  	right: 60px;
-  	bottom: 60px;
+  	right: 40px;
+  	bottom: 40px;
   	width: 36px;
   	height: 36px;
   	text-align: center;
