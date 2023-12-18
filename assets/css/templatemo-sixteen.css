@@ -950,7 +950,29 @@ header {
     text-decoration: none; /* Remove underlines from links */
 	width:220px;
 }
-
+.back-to-top{
+	display: table;
+  	background-color: #242424;
+  	position: fixed;
+  	right: 40px;
+  	bottom: 40px;
+  	width: 36px;
+  	height: 36px;
+  	text-align: center;
+  	border-radius: 2px;
+  	cursor: pointer;
+  	vertical-align: middle;
+  	z-index: 2;
+	transition: all 0.3s;
+}
+.back-to-top a{
+	display: table-cell;
+  	line-height: 0;
+  	font-size: 20px;
+  	color: #ffffff;
+  	vertical-align: middle;
+	transition: all 0.3s;
+}
 #contact-button:hover {
     background-color: #121212;
     color: #fff;
@@ -1179,6 +1201,11 @@ header {
 	.tabs-content {
 		padding: 30px;
 	}
+	.back-to-top{
+		  right: 15px;
+		  bottom: 20px;
+	}
+
 	
 }
 @media (max-width: 766px) {
@@ -1663,29 +1690,7 @@ header {
 
 /* back to the top icon*/
 
-.back-to-top{
-	display: table;
-  	background-color: #242424;
-  	position: fixed;
-  	right: 40px;
-  	bottom: 40px;
-  	width: 36px;
-  	height: 36px;
-  	text-align: center;
-  	border-radius: 2px;
-  	cursor: pointer;
-  	vertical-align: middle;
-  	z-index: 2;
-	transition: all 0.3s;
-}
-.back-to-top a{
-	display: table-cell;
-  	line-height: 0;
-  	font-size: 20px;
-  	color: #ffffff;
-  	vertical-align: middle;
-	transition: all 0.3s;
-}
+
 .fade{
 	transition: all 0.1s;
 	display: hidden;
